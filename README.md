@@ -1,4 +1,5 @@
 # UAV-swarm distributed-aperture reception of LEO satellites — simulation code and data
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23400496.svg)](https://doi.org/10.5281/zenodo.23400496)
 
 Code, configuration, orbital data and analysis scripts for the paper
 
