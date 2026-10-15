@@ -1,0 +1,19 @@
+{
+  "eq_pacific": {
+    "pool_path": "D:\\_WB_space\\paper\\YZH-hk\\_c_work\\pools\\covisible_pool_eq_pacific.json",
+    "n_records": 1329,
+    "span_start": "2026-04-30T22:50:32.366976",
+    "span_end": "2026-05-01T22:30:36.941760",
+    "n_coarse_points": 1421,
+    "n_candidate_starts": 141,
+    "n_windows_built": 141,
+    "n_windows_pass_geometry": 95,
+    "vf_min": 0.6885245901639344,
+    "vf_median": 1.0,
+    "dmin_min_km": 226.19050790707615,
+    "dmin_median_km": 318.8283194894804,
+    "n_windows_usable": 95,
+    "n_windows_kept": 40,
+    "build_seconds": 77.7
+  }
+}

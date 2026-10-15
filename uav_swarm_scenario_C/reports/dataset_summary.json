@@ -1,0 +1,14 @@
+{
+  "total_samples": 1200,
+  "single_satellite_samples": 900,
+  "concurrent_samples": 300,
+  "concurrency_breakdown": {
+    "1": 900,
+    "2": 100,
+    "3": 100,
+    "5": 100
+  },
+  "min_visible_duration_s": 260.0,
+  "max_visible_duration_s": 480.0,
+  "mean_orbit_altitude_m": 539558.70442016
+}

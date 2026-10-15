@@ -1,0 +1,649 @@
+{
+  "site_lat_deg": 0.0,
+  "site_lon_deg": -174.624885,
+  "min_elevation_deg": 10.0,
+  "window_s": 600.0,
+  "m_sat": 3,
+  "windows": [
+    {
+      "start_utc": "2026-05-01T15:35:32.366976",
+      "catalogs": [
+        "54083",
+        "52665",
+        "52657"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 300.4,
+      "elev_start_deg": [
+        11.28,
+        -1.29,
+        -5.81
+      ],
+      "mean_gain_deg": 14.83
+    },
+    {
+      "start_utc": "2026-05-01T04:55:32.366976",
+      "catalogs": [
+        "51889",
+        "50851",
+        "51798"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 301.7,
+      "elev_start_deg": [
+        -0.08,
+        13.19,
+        11.03
+      ],
+      "mean_gain_deg": 14.33
+    },
+    {
+      "start_utc": "2026-05-01T02:35:32.366976",
+      "catalogs": [
+        "52684",
+        "53900",
+        "52679"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 316.7,
+      "elev_start_deg": [
+        -5.04,
+        4.73,
+        22.57
+      ],
+      "mean_gain_deg": 14.32
+    },
+    {
+      "start_utc": "2026-05-01T11:45:32.366976",
+      "catalogs": [
+        "52605",
+        "53773",
+        "53783"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 337.4,
+      "elev_start_deg": [
+        -4.32,
+        0.38,
+        12.4
+      ],
+      "mean_gain_deg": 14.23
+    },
+    {
+      "start_utc": "2026-05-01T15:05:32.366976",
+      "catalogs": [
+        "54089",
+        "52676",
+        "53892"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 308.1,
+      "elev_start_deg": [
+        -0.12,
+        12.49,
+        11.14
+      ],
+      "mean_gain_deg": 14.22
+    },
+    {
+      "start_utc": "2026-05-01T03:55:32.366976",
+      "catalogs": [
+        "54053",
+        "53154",
+        "54055"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 315.9,
+      "elev_start_deg": [
+        -3.65,
+        7.02,
+        27.29
+      ],
+      "mean_gain_deg": 14.18
+    },
+    {
+      "start_utc": "2026-05-01T05:25:32.366976",
+      "catalogs": [
+        "51888",
+        "50849",
+        "51868"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 322.4,
+      "elev_start_deg": [
+        11.21,
+        -1.05,
+        -0.84
+      ],
+      "mean_gain_deg": 14.18
+    },
+    {
+      "start_utc": "2026-05-01T08:45:32.366976",
+      "catalogs": [
+        "49427",
+        "52482",
+        "52470"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 363.1,
+      "elev_start_deg": [
+        20.1,
+        9.92,
+        -1.2
+      ],
+      "mean_gain_deg": 14.12
+    },
+    {
+      "start_utc": "2026-05-01T14:05:32.366976",
+      "catalogs": [
+        "51745",
+        "53173",
+        "51740"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 314.1,
+      "elev_start_deg": [
+        -3.66,
+        6.64,
+        27.31
+      ],
+      "mean_gain_deg": 14.12
+    },
+    {
+      "start_utc": "2026-05-01T17:55:32.366976",
+      "catalogs": [
+        "52375",
+        "51862",
+        "51996"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 320.0,
+      "elev_start_deg": [
+        23.26,
+        4.76,
+        -4.7
+      ],
+      "mean_gain_deg": 14.06
+    },
+    {
+      "start_utc": "2026-05-01T16:35:32.366976",
+      "catalogs": [
+        "54802",
+        "50819",
+        "51787"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 351.1,
+      "elev_start_deg": [
+        18.97,
+        2.56,
+        -6.54
+      ],
+      "mean_gain_deg": 13.98
+    },
+    {
+      "start_utc": "2026-05-01T18:15:32.366976",
+      "catalogs": [
+        "52882",
+        "53252",
+        "53254"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 376.6,
+      "elev_start_deg": [
+        17.85,
+        2.19,
+        -2.88
+      ],
+      "mean_gain_deg": 13.98
+    },
+    {
+      "start_utc": "2026-05-01T19:55:32.366976",
+      "catalogs": [
+        "54759",
+        "53977",
+        "52476"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 355.2,
+      "elev_start_deg": [
+        17.3,
+        1.83,
+        -2.56
+      ],
+      "mean_gain_deg": 13.94
+    },
+    {
+      "start_utc": "2026-05-01T07:45:32.366976",
+      "catalogs": [
+        "53992",
+        "52848",
+        "54763"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 334.7,
+      "elev_start_deg": [
+        24.09,
+        4.75,
+        -4.61
+      ],
+      "mean_gain_deg": 13.86
+    },
+    {
+      "start_utc": "2026-05-01T12:05:32.366976",
+      "catalogs": [
+        "52263",
+        "51115",
+        "52289"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 368.9,
+      "elev_start_deg": [
+        -1.68,
+        10.12,
+        8.84
+      ],
+      "mean_gain_deg": 13.83
+    },
+    {
+      "start_utc": "2026-05-01T11:05:32.366976",
+      "catalogs": [
+        "52999",
+        "53745",
+        "53792"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 365.5,
+      "elev_start_deg": [
+        -4.99,
+        22.04,
+        -0.78
+      ],
+      "mean_gain_deg": 13.81
+    },
+    {
+      "start_utc": "2026-05-01T03:15:32.366976",
+      "catalogs": [
+        "54090",
+        "52671",
+        "52678"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 329.1,
+      "elev_start_deg": [
+        0.14,
+        13.5,
+        -0.59
+      ],
+      "mean_gain_deg": 13.8
+    },
+    {
+      "start_utc": "2026-05-01T01:35:32.366976",
+      "catalogs": [
+        "54097",
+        "52535",
+        "52536"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 311.8,
+      "elev_start_deg": [
+        0.47,
+        -8.05,
+        13.84
+      ],
+      "mean_gain_deg": 13.79
+    },
+    {
+      "start_utc": "2026-05-01T13:05:32.366976",
+      "catalogs": [
+        "53399",
+        "53820",
+        "53417"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 330.5,
+      "elev_start_deg": [
+        2.12,
+        -6.88,
+        15.39
+      ],
+      "mean_gain_deg": 13.79
+    },
+    {
+      "start_utc": "2026-05-01T21:15:32.366976",
+      "catalogs": [
+        "53603",
+        "52133",
+        "50177"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 376.3,
+      "elev_start_deg": [
+        21.05,
+        -5.08,
+        4.43
+      ],
+      "mean_gain_deg": 13.77
+    },
+    {
+      "start_utc": "2026-05-01T00:55:32.366976",
+      "catalogs": [
+        "51146",
+        "51108",
+        "52576"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 381.5,
+      "elev_start_deg": [
+        -0.62,
+        21.36,
+        11.89
+      ],
+      "mean_gain_deg": 13.75
+    },
+    {
+      "start_utc": "2026-05-01T00:15:32.366976",
+      "catalogs": [
+        "52287",
+        "52282",
+        "51118"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 390.5,
+      "elev_start_deg": [
+        -1.19,
+        9.92,
+        10.49
+      ],
+      "mean_gain_deg": 13.74
+    },
+    {
+      "start_utc": "2026-05-01T07:05:32.366976",
+      "catalogs": [
+        "52851",
+        "54002",
+        "53981"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 318.7,
+      "elev_start_deg": [
+        10.58,
+        41.73,
+        -1.49
+      ],
+      "mean_gain_deg": 13.7
+    },
+    {
+      "start_utc": "2026-04-30T22:55:32.366976",
+      "catalogs": [
+        "52633",
+        "52117",
+        "52649"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 364.8,
+      "elev_start_deg": [
+        -2.89,
+        30.5,
+        7.11
+      ],
+      "mean_gain_deg": 13.53
+    },
+    {
+      "start_utc": "2026-05-01T20:15:32.366976",
+      "catalogs": [
+        "53640",
+        "53624",
+        "54803"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 417.3,
+      "elev_start_deg": [
+        12.59,
+        0.37,
+        -0.16
+      ],
+      "mean_gain_deg": 13.52
+    },
+    {
+      "start_utc": "2026-05-01T09:25:32.366976",
+      "catalogs": [
+        "50192",
+        "52134",
+        "52462"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 369.8,
+      "elev_start_deg": [
+        23.0,
+        -4.78,
+        -1.18
+      ],
+      "mean_gain_deg": 13.5
+    },
+    {
+      "start_utc": "2026-05-01T18:55:32.366976",
+      "catalogs": [
+        "52854",
+        "53986",
+        "52833"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 346.3,
+      "elev_start_deg": [
+        10.08,
+        37.53,
+        -1.31
+      ],
+      "mean_gain_deg": 13.48
+    },
+    {
+      "start_utc": "2026-05-01T20:35:32.366976",
+      "catalogs": [
+        "52491",
+        "52472",
+        "49421"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 369.3,
+      "elev_start_deg": [
+        9.49,
+        -1.53,
+        35.46
+      ],
+      "mean_gain_deg": 13.4
+    },
+    {
+      "start_utc": "2026-05-01T22:15:32.366976",
+      "catalogs": [
+        "53014",
+        "53735",
+        "53724"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 385.2,
+      "elev_start_deg": [
+        -1.71,
+        9.75,
+        33.33
+      ],
+      "mean_gain_deg": 13.36
+    },
+    {
+      "start_utc": "2026-05-01T01:15:32.366976",
+      "catalogs": [
+        "54052",
+        "53415",
+        "53820"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 313.7,
+      "elev_start_deg": [
+        -6.46,
+        16.91,
+        17.27
+      ],
+      "mean_gain_deg": 13.33
+    },
+    {
+      "start_utc": "2026-05-01T17:35:32.366976",
+      "catalogs": [
+        "54181",
+        "54187",
+        "53257"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 318.8,
+      "elev_start_deg": [
+        31.29,
+        -3.38,
+        -3.0
+      ],
+      "mean_gain_deg": 13.3
+    },
+    {
+      "start_utc": "2026-05-01T20:55:32.366976",
+      "catalogs": [
+        "53589",
+        "53572",
+        "53556"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 399.2,
+      "elev_start_deg": [
+        -3.45,
+        27.8,
+        7.13
+      ],
+      "mean_gain_deg": 13.25
+    },
+    {
+      "start_utc": "2026-05-01T21:55:32.366976",
+      "catalogs": [
+        "52646",
+        "52458",
+        "52110"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 342.8,
+      "elev_start_deg": [
+        0.08,
+        23.4,
+        -8.3
+      ],
+      "mean_gain_deg": 13.25
+    },
+    {
+      "start_utc": "2026-05-01T12:25:32.366976",
+      "catalogs": [
+        "53847",
+        "52598",
+        "53436"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 344.5,
+      "elev_start_deg": [
+        -3.51,
+        6.22,
+        25.87
+      ],
+      "mean_gain_deg": 13.24
+    },
+    {
+      "start_utc": "2026-05-01T20:05:32.366976",
+      "catalogs": [
+        "53719",
+        "52499",
+        "45693"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 303.8,
+      "elev_start_deg": [
+        -5.67,
+        42.22,
+        2.01
+      ],
+      "mean_gain_deg": 13.23
+    },
+    {
+      "start_utc": "2026-04-30T23:55:32.366976",
+      "catalogs": [
+        "52620",
+        "53869",
+        "53409"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 365.8,
+      "elev_start_deg": [
+        0.69,
+        13.01,
+        -7.84
+      ],
+      "mean_gain_deg": 13.2
+    },
+    {
+      "start_utc": "2026-05-01T10:25:32.366976",
+      "catalogs": [
+        "53027",
+        "53799",
+        "53721"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 381.3,
+      "elev_start_deg": [
+        -1.45,
+        3.51,
+        36.8
+      ],
+      "mean_gain_deg": 13.18
+    },
+    {
+      "start_utc": "2026-05-01T13:45:32.366976",
+      "catalogs": [
+        "52541",
+        "53389",
+        "53832"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 332.4,
+      "elev_start_deg": [
+        -1.92,
+        8.3,
+        32.64
+      ],
+      "mean_gain_deg": 12.92
+    },
+    {
+      "start_utc": "2026-05-01T01:45:32.366976",
+      "catalogs": [
+        "53832",
+        "53389",
+        "53913"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 315.5,
+      "elev_start_deg": [
+        1.67,
+        -7.27,
+        14.8
+      ],
+      "mean_gain_deg": 12.76
+    },
+    {
+      "start_utc": "2026-05-01T09:55:32.366976",
+      "catalogs": [
+        "53709",
+        "53031",
+        "53600"
+      ],
+      "valid_fraction_10deg": 1.0,
+      "min_subpoint_km": 312.5,
+      "elev_start_deg": [
+        -5.49,
+        42.57,
+        18.34
+      ],
+      "mean_gain_deg": 12.61
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tle-swarm-sim"
+version = "0.1.0"
+description = "TLE-driven Starlink trajectory dataset pipeline for UAV swarm simulation"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=2",
+  "scipy",
+  "matplotlib",
+  "networkx",
+  "pandas",
+  "torch",
+  "osqp",
+  "sgp4",
+]
+
+[tool.setuptools.packages.find]
+include = ["tle_swarm_sim*"]

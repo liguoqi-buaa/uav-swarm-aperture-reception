@@ -1,0 +1,376 @@
+{
+  "generated_utc": "2026-10-13T09:26:32.191848Z",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "python": "3.13.14",
+  "torch": "2.14.1+cpu",
+  "torch_threads": 1,
+  "trials": 3,
+  "control_period_ms": 1000.0,
+  "note": "Controller-only timing: compute_control() path, no metric evaluation. Projections are ANALYTIC, not measured on the embedded device.",
+  "per_controller": {
+    "P0": {
+      "total": {
+        "mean_ms": 2.059751359993283,
+        "p50_ms": 1.8125999486073852,
+        "p95_ms": 3.1973000150173903,
+        "p99_ms": 4.943100037053227,
+        "max_ms": 27.64840004965663
+      },
+      "components": {
+        "C_snr": 0.16169960144907236,
+        "C_adjacency": 1.049900078214705,
+        "C_lambda2": 0.07319997530430555,
+        "C_potential": 1.7053000628948212
+      }
+    },
+    "P1": {
+      "total": {
+        "mean_ms": 1.9794395997969478,
+        "p50_ms": 1.7864000983536243,
+        "p95_ms": 3.0103999888524413,
+        "p99_ms": 4.130500019527972,
+        "max_ms": 5.99159998819232
+      },
+      "components": {
+        "C_snr": 0.16080052591860294,
+        "C_adjacency": 1.0381999891251326,
+        "C_lambda2": 0.06889994256198406,
+        "C_potential": 1.6839000163599849
+      }
+    },
+    "P2": {
+      "total": {
+        "mean_ms": 3.903374375095689,
+        "p50_ms": 3.743399982340634,
+        "p95_ms": 5.325399921275675,
+        "p99_ms": 6.439900025725365,
+        "max_ms": 8.03950009867549
+      },
+      "components": {
+        "C_snr": 0.3271005116403103,
+        "C_adjacency": 2.1767999278381467,
+        "C_lambda2": 0.15700003132224083,
+        "C_potential": 3.595000016503036
+      }
+    },
+    "P3": {
+      "total": {
+        "mean_ms": 1.990238545708879,
+        "p50_ms": 1.83450011536479,
+        "p95_ms": 3.0308000277727842,
+        "p99_ms": 3.7797000259160995,
+        "max_ms": 4.592299927026033
+      },
+      "components": {
+        "C_snr": 0.16189995221793652,
+        "C_adjacency": 1.0510999709367752,
+        "C_lambda2": 0.07389998063445091,
+        "C_potential": 1.7219999572262168
+      }
+    },
+    "ST-GNN-DMPC": {
+      "total": {
+        "mean_ms": 19.72677997965314,
+        "p50_ms": 19.962099962867796,
+        "p95_ms": 23.022299981676042,
+        "p99_ms": 25.115599972195923,
+        "max_ms": 119.41430007573217
+      },
+      "components": {
+        "C_snr": 0.175100052729249,
+        "C_features": 10.220500058494508,
+        "C_slots": 0.2679000608623028,
+        "C_qp_local": 5.837900098413229,
+        "C_gnn_forward": 1.5167000237852335
+      }
+    },
+    "B1_GEOM_PD": {
+      "total": {
+        "mean_ms": 0.13436988257987428,
+        "p50_ms": 0.11439993977546692,
+        "p95_ms": 0.2536999527364969,
+        "p99_ms": 0.5683000199496746,
+        "max_ms": 0.9920999873429537
+      },
+      "components": {
+        "C_pd": 0.0567000824958086,
+        "C_indep_total": 0.1004999503493309
+      }
+    },
+    "B2_GREEDY": {
+      "total": {
+        "mean_ms": 0.11454154251745623,
+        "p50_ms": 0.0914999982342124,
+        "p95_ms": 0.23200002033263445,
+        "p99_ms": 0.5035001086071134,
+        "max_ms": 1.6392000252380967
+      },
+      "components": {
+        "C_pd": 0.0377000542357564,
+        "C_indep_total": 0.07840001489967108
+      }
+    },
+    "B1_GEOM_PD_PREV": {
+      "total": {
+        "mean_ms": 1.5288762635506454,
+        "p50_ms": 1.303600030951202,
+        "p95_ms": 3.117899992503226,
+        "p99_ms": 5.072199972346425,
+        "max_ms": 27.033100021071732
+      },
+      "components": {
+        "C_preview_qp": 1.181500032544136,
+        "C_indep_total": 1.2715000193566084
+      }
+    },
+    "B2_GREEDY_PREV": {
+      "total": {
+        "mean_ms": 2.0096681636168774,
+        "p50_ms": 1.6725999303162098,
+        "p95_ms": 4.054500022903085,
+        "p99_ms": 6.81529997382313,
+        "max_ms": 18.060100032016635
+      },
+      "components": {
+        "C_preview_qp": 1.5217999462038279,
+        "C_indep_total": 1.6280000563710928
+      }
+    }
+  },
+  "hardware_independent": {
+    "stgnn_parameters": 36367,
+    "stgnn_nodes_per_step": 20,
+    "stgnn_history_steps": 10,
+    "stgnn_node_feature_dim": 71,
+    "stgnn_hidden_dim": 64,
+    "stgnn_macs_per_step": 7096160,
+    "stgnn_flops_per_step": 14192320,
+    "stgnn_macs_breakdown": {
+      "adjacency_matmul": 284000,
+      "self+neighbor_proj": 1817600,
+      "gru": 4953600,
+      "prior_proj": 20480,
+      "output_linear": 19200,
+      "layer_norm": 1280
+    },
+    "qp_variables_per_uav": 15,
+    "qp_constraints_per_uav": 30,
+    "qp_variables_total": 300,
+    "qp_constraints_total": 600,
+    "qp_solve_mode": "fast_projected",
+    "potential_pairwise_terms": 190,
+    "eigendecomposition_size": 20,
+    "network_links_evaluated": 190
+  },
+  "jetson_projection": [
+    {
+      "device": "Desktop CPU (measured, 1 thread)",
+      "slowdown_factor": 1.0,
+      "note": "reference platform of this study",
+      "controllers": {
+        "P0": {
+          "projected_step_ms": 1.813,
+          "pct_of_control_period": 0.1813,
+          "headroom_x": 551.7
+        },
+        "P1": {
+          "projected_step_ms": 1.786,
+          "pct_of_control_period": 0.1786,
+          "headroom_x": 559.8
+        },
+        "P2": {
+          "projected_step_ms": 3.743,
+          "pct_of_control_period": 0.3743,
+          "headroom_x": 267.1
+        },
+        "P3": {
+          "projected_step_ms": 1.835,
+          "pct_of_control_period": 0.1835,
+          "headroom_x": 545.1
+        },
+        "ST-GNN-DMPC": {
+          "projected_step_ms": 19.962,
+          "pct_of_control_period": 1.9962,
+          "headroom_x": 50.1
+        },
+        "B1_GEOM_PD": {
+          "projected_step_ms": 0.114,
+          "pct_of_control_period": 0.0114,
+          "headroom_x": 8741.3
+        },
+        "B2_GREEDY": {
+          "projected_step_ms": 0.091,
+          "pct_of_control_period": 0.0091,
+          "headroom_x": 10929.0
+        },
+        "B1_GEOM_PD_PREV": {
+          "projected_step_ms": 1.304,
+          "pct_of_control_period": 0.1304,
+          "headroom_x": 767.1
+        },
+        "B2_GREEDY_PREV": {
+          "projected_step_ms": 1.673,
+          "pct_of_control_period": 0.1673,
+          "headroom_x": 597.9
+        }
+      }
+    },
+    {
+      "device": "Jetson Orin Nano 8GB (Arm A78AE @1.5GHz)",
+      "slowdown_factor": 5.0,
+      "note": "conservative 5x slower per core than the desktop core",
+      "controllers": {
+        "P0": {
+          "projected_step_ms": 9.063,
+          "pct_of_control_period": 0.9063,
+          "headroom_x": 110.3
+        },
+        "P1": {
+          "projected_step_ms": 8.932,
+          "pct_of_control_period": 0.8932,
+          "headroom_x": 112.0
+        },
+        "P2": {
+          "projected_step_ms": 18.717,
+          "pct_of_control_period": 1.8717,
+          "headroom_x": 53.4
+        },
+        "P3": {
+          "projected_step_ms": 9.173,
+          "pct_of_control_period": 0.9173,
+          "headroom_x": 109.0
+        },
+        "ST-GNN-DMPC": {
+          "projected_step_ms": 99.81,
+          "pct_of_control_period": 9.981,
+          "headroom_x": 10.0
+        },
+        "B1_GEOM_PD": {
+          "projected_step_ms": 0.572,
+          "pct_of_control_period": 0.0572,
+          "headroom_x": 1748.3
+        },
+        "B2_GREEDY": {
+          "projected_step_ms": 0.457,
+          "pct_of_control_period": 0.0457,
+          "headroom_x": 2185.8
+        },
+        "B1_GEOM_PD_PREV": {
+          "projected_step_ms": 6.518,
+          "pct_of_control_period": 0.6518,
+          "headroom_x": 153.4
+        },
+        "B2_GREEDY_PREV": {
+          "projected_step_ms": 8.363,
+          "pct_of_control_period": 0.8363,
+          "headroom_x": 119.6
+        }
+      }
+    },
+    {
+      "device": "Jetson Xavier NX (Carmel @1.4GHz)",
+      "slowdown_factor": 8.0,
+      "note": "conservative 8x slower per core",
+      "controllers": {
+        "P0": {
+          "projected_step_ms": 14.501,
+          "pct_of_control_period": 1.4501,
+          "headroom_x": 69.0
+        },
+        "P1": {
+          "projected_step_ms": 14.291,
+          "pct_of_control_period": 1.4291,
+          "headroom_x": 70.0
+        },
+        "P2": {
+          "projected_step_ms": 29.947,
+          "pct_of_control_period": 2.9947,
+          "headroom_x": 33.4
+        },
+        "P3": {
+          "projected_step_ms": 14.676,
+          "pct_of_control_period": 1.4676,
+          "headroom_x": 68.1
+        },
+        "ST-GNN-DMPC": {
+          "projected_step_ms": 159.697,
+          "pct_of_control_period": 15.9697,
+          "headroom_x": 6.3
+        },
+        "B1_GEOM_PD": {
+          "projected_step_ms": 0.915,
+          "pct_of_control_period": 0.0915,
+          "headroom_x": 1092.7
+        },
+        "B2_GREEDY": {
+          "projected_step_ms": 0.732,
+          "pct_of_control_period": 0.0732,
+          "headroom_x": 1366.1
+        },
+        "B1_GEOM_PD_PREV": {
+          "projected_step_ms": 10.429,
+          "pct_of_control_period": 1.0429,
+          "headroom_x": 95.9
+        },
+        "B2_GREEDY_PREV": {
+          "projected_step_ms": 13.381,
+          "pct_of_control_period": 1.3381,
+          "headroom_x": 74.7
+        }
+      }
+    },
+    {
+      "device": "Pessimistic embedded scenario",
+      "slowdown_factor": 10.0,
+      "note": "10x slower per core, MAXN power mode",
+      "controllers": {
+        "P0": {
+          "projected_step_ms": 18.126,
+          "pct_of_control_period": 1.8126,
+          "headroom_x": 55.2
+        },
+        "P1": {
+          "projected_step_ms": 17.864,
+          "pct_of_control_period": 1.7864,
+          "headroom_x": 56.0
+        },
+        "P2": {
+          "projected_step_ms": 37.434,
+          "pct_of_control_period": 3.7434,
+          "headroom_x": 26.7
+        },
+        "P3": {
+          "projected_step_ms": 18.345,
+          "pct_of_control_period": 1.8345,
+          "headroom_x": 54.5
+        },
+        "ST-GNN-DMPC": {
+          "projected_step_ms": 199.621,
+          "pct_of_control_period": 19.9621,
+          "headroom_x": 5.0
+        },
+        "B1_GEOM_PD": {
+          "projected_step_ms": 1.144,
+          "pct_of_control_period": 0.1144,
+          "headroom_x": 874.1
+        },
+        "B2_GREEDY": {
+          "projected_step_ms": 0.915,
+          "pct_of_control_period": 0.0915,
+          "headroom_x": 1092.9
+        },
+        "B1_GEOM_PD_PREV": {
+          "projected_step_ms": 13.036,
+          "pct_of_control_period": 1.3036,
+          "headroom_x": 76.7
+        },
+        "B2_GREEDY_PREV": {
+          "projected_step_ms": 16.726,
+          "pct_of_control_period": 1.6726,
+          "headroom_x": 59.8
+        }
+      }
+    }
+  ]
+}

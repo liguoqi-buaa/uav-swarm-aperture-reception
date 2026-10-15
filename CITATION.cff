@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the journal article (once published) and this repository."
+title: "UAV-swarm distributed-aperture reception of LEO satellites - simulation code and data"
+abstract: >-
+  Closed-loop simulator and analysis scripts for a study of predictive control
+  versus prediction-free geometric control in UAV-swarm distributed-aperture
+  reception of non-cooperative LEO satellites, including a length-controlled
+  alignment metric, a connectivity-aperture trade-off analysis, a per-step
+  compute budget and a three-site robustness check.
+type: software
+license: MIT
+license-url: https://opensource.org/licenses/MIT
+repository-code: "https://github.com/USERNAME/uav-swarm-aperture-reception"
+authors:
+  - family-names: "Yin"
+    given-names: "Zihang"
+    orcid: "https://orcid.org/0009-0006-8645-7766"
+  - family-names: "Li"
+    given-names: "Guoqi"
+  - family-names: "Huang"
+    given-names: "Sai"
+  - family-names: "Guo"
+    given-names: "Ningyan"
+  - family-names: "Liu"
+    given-names: "Yang"
+  - family-names: "Lv"
+    given-names: "Ke"
+contact:
+  - family-names: "Li"
+    given-names: "Guoqi"
+    email: "gqli@buaa.edu.cn"
+  - family-names: "Huang"
+    given-names: "Sai"
+    email: "huangsai@bupt.edu.cn"
+keywords:
+  - UAV swarm
+  - distributed aperture
+  - predictive control
+  - LEO satellite
+  - performance evaluation
+  - geometric control

@@ -1,0 +1,169 @@
+{
+  "blend": 0.0,
+  "mode": "matched",
+  "trials": 20,
+  "by_algorithm": {
+    "ST-GNN-DMPC": {
+      "monitoring_performance": {
+        "mean": 0.8891650428270307,
+        "std": 0.017789996472533775
+      },
+      "effective_monitoring_ratio": {
+        "mean": 81.33943427620632,
+        "std": 4.285267548873795
+      },
+      "tracking_error": {
+        "mean": 245.44601537519347,
+        "std": 45.08189968089396
+      },
+      "average_connectivity": {
+        "mean": 3.5345178304501146,
+        "std": 0.4217776417021573
+      },
+      "link_disruption_rate": {
+        "mean": 0.1420439618180226,
+        "std": 0.018096359593891317
+      },
+      "average_node_degree": {
+        "mean": 11.594109816971713,
+        "std": 0.4340775418567376
+      },
+      "connected_graph_ratio": {
+        "mean": 81.54742096505825,
+        "std": 7.105367732983163
+      },
+      "link_availability_ratio": {
+        "mean": 61.021630615640596,
+        "std": 2.2846186413512526
+      },
+      "k_connectivity_satisfaction_ratio": {
+        "mean": 81.48086522462563,
+        "std": 7.04423877613483
+      },
+      "topology_convergence_latency_ms": {
+        "mean": 240950.0,
+        "std": 50683.20078788694
+      },
+      "topology_convergence_latency_legacy_ms": {
+        "mean": 118.66482500336133,
+        "std": 1.7114907442478278
+      },
+      "average_single_step_ms": {
+        "mean": 21.977680615882026,
+        "std": 2.298650341943214
+      },
+      "inference_latency_ms": {
+        "mean": 1.8029960400301697,
+        "std": 0.18456001594570293
+      },
+      "stgnn_loaded": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "qp_solved_ratio": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "fallback_rate": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "acceleration_clip_ratio": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "aperture_gain": {
+        "mean": 0.4959824420391719,
+        "std": 0.17075432492084722
+      },
+      "aperture_gain_tail": {
+        "mean": 0.7400364217577562,
+        "std": 0.30838568793121984
+      },
+      "aperture_gain_min": {
+        "mean": 0.0004596818325237499,
+        "std": 0.0011108509193486224
+      },
+      "aperture_alignment": {
+        "mean": 0.5012589884558591,
+        "std": 0.1714128757353235
+      },
+      "aperture_coverage": {
+        "mean": 0.9878768614220078,
+        "std": 0.008382192058963293
+      },
+      "aperture_wavefront_rms_m": {
+        "mean": 517.8492406454328,
+        "std": 137.51281001131355
+      },
+      "aperture_misalignment_deg": {
+        "mean": 7.423756686569473,
+        "std": 3.095654159436748
+      },
+      "aperture_misalignment_tail_deg": {
+        "mean": 0.34204171816824425,
+        "std": 0.2851741256328002
+      },
+      "aperture_span_m": {
+        "mean": 3167.514107610637,
+        "std": 116.91125678970545
+      },
+      "aperture_gain_oracle": {
+        "mean": 0.6400936788297199,
+        "std": 0.20817643085687434
+      },
+      "aperture_efficiency": {
+        "mean": 0.7755112255525194,
+        "std": 0.06220116487987523
+      },
+      "look_rate_demand_max_deg_s": {
+        "mean": 74.1878453038674,
+        "std": 5.412453449088273
+      },
+      "look_rate_demand_mean_deg_s": {
+        "mean": 0.7359945289999634,
+        "std": 0.0663756677672128
+      },
+      "look_turn_demand_total_deg": {
+        "mean": 441.5967173999781,
+        "std": 39.82540066032768
+      },
+      "look_rate_ref_max_deg_s": {
+        "mean": 0.7639437269252614,
+        "std": 5.16912964722723e-11
+      },
+      "look_rate_ref_mean_deg_s": {
+        "mean": 0.6534868251514324,
+        "std": 0.06844771962539385
+      },
+      "look_turn_ref_total_deg": {
+        "mean": 392.0920950908595,
+        "std": 41.06863177523631
+      },
+      "look_rate_limit_deg_s": {
+        "mean": 0.7639437268410976,
+        "std": 1.1390647892519134e-16
+      },
+      "uav_tangential_speed_limit_mps": {
+        "mean": 20.0,
+        "std": 0.0
+      },
+      "task_valid_fraction": {
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "subpoint_dist_min_km": {
+        "mean": 343.61333520071275,
+        "std": 27.19057217205308
+      },
+      "subpoint_dist_mean_km": {
+        "mean": 1305.5316781578713,
+        "std": 41.78378237311365
+      },
+      "elev_mean_deg": {
+        "mean": 21.4925787269172,
+        "std": 0.6521494501586693
+      }
+    }
+  }
+}

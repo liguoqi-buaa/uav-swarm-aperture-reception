@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Notebooks / editors
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.spl
+*.fls
+*.fdb_latexmk
+
+# WorkBuddy project metadata (not part of the artifact)
+.workbuddy/
+
+# Simulation outputs that are regenerated on demand.
+# NOTE: reports/<run>/raw_trials/scenario_c_trials.csv ARE tracked - they are the
+# aggregate per-trial metrics behind the paper's tables, and are small.
+# Only the bulky per-step per-trial trajectories are excluded.
+uav_swarm_scenario_C/reports/trials/
+uav_swarm_scenario_C/reports/*/trials/
+runs/
+tmp/

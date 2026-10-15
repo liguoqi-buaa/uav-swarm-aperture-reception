@@ -1,0 +1,37 @@
+satellite:
+  orbital_height_km: 550
+  min_elevation_angle_deg: 10
+  optimal_monitoring_radius_km: 5
+  concurrent_satellites: [1, 2, 3, 5]
+
+uav:
+  swarm_size_range: [5, 50]
+  default_swarm_size: 20
+  max_velocity_mps: 20
+  max_acceleration_mps2: 5
+  safe_distance_m: 50
+  simulation_time_step_s: 0.1
+
+communication:
+  carrier_frequency_ghz: 3.5
+  transmit_power_dbm: 20
+  bandwidth_mhz: 100
+  connectivity_snr_threshold_db: 10
+  max_communication_range_m: 1000
+
+algorithm:
+  historical_observation_horizon_H0: 10
+  rolling_prediction_horizon_H: 5
+  attraction_gain_kattr: 0.8
+  repulsion_gain_krep: 1.2
+  connectivity_gain_kconn: 1.5
+  power_gain_kpower: 0.5
+
+experiments:
+  num_trials: 20
+  algorithms:
+    - OLSR-FANET
+    - APF-TC
+    - GNN-TC
+    - DMPC-C
+    - ST-GNN-DMPC

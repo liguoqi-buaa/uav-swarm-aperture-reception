@@ -1,0 +1,815 @@
+{
+  "mode": "matched",
+  "trials": 20,
+  "n_rows": 80,
+  "by_algorithm": {
+    "B1_GEOM_PD": {
+      "monitoring_performance": {
+        "n": 20,
+        "mean": 0.4647730154048104,
+        "std": 0.14246064904998945
+      },
+      "effective_monitoring_ratio": {
+        "n": 20,
+        "mean": 72.75374376039935,
+        "std": 10.716963804823315
+      },
+      "tracking_error": {
+        "n": 20,
+        "mean": 1137.714198178735,
+        "std": 298.1149699269243
+      },
+      "average_connectivity": {
+        "n": 20,
+        "mean": 4.455742535581641,
+        "std": 1.0505387041395882
+      },
+      "link_disruption_rate": {
+        "n": 20,
+        "mean": 0.1817146860495665,
+        "std": 0.04817120427071276
+      },
+      "average_node_degree": {
+        "n": 20,
+        "mean": 12.204567387687188,
+        "std": 0.6815664186488587
+      },
+      "connected_graph_ratio": {
+        "n": 20,
+        "mean": 84.05990016638935,
+        "std": 6.620143895426987
+      },
+      "link_availability_ratio": {
+        "n": 20,
+        "mean": 64.23456519835361,
+        "std": 3.5871916770992547
+      },
+      "k_connectivity_satisfaction_ratio": {
+        "n": 20,
+        "mean": 84.05990016638935,
+        "std": 6.620143895426987
+      },
+      "topology_convergence_latency_ms": {
+        "n": 20,
+        "mean": 601000.0,
+        "std": 0.0
+      },
+      "topology_convergence_latency_legacy_ms": {
+        "n": 20,
+        "mean": 0.35188498441129923,
+        "std": 0.02179561930387887
+      },
+      "average_single_step_ms": {
+        "n": 20,
+        "mean": 0.32359826111795675,
+        "std": 0.012008153594345877
+      },
+      "inference_latency_ms": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "stgnn_loaded": {
+        "n": 20,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "qp_solved_ratio": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "fallback_rate": {
+        "n": 20,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "acceleration_clip_ratio": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "aperture_gain": {
+        "n": 20,
+        "mean": 0.4819962428744953,
+        "std": 0.09308278551779862
+      },
+      "aperture_gain_tail": {
+        "n": 20,
+        "mean": 0.8172548816527734,
+        "std": 0.16358316286331584
+      },
+      "aperture_gain_min": {
+        "n": 20,
+        "mean": 0.0004608991299221312,
+        "std": 0.0011146681945012787
+      },
+      "aperture_alignment": {
+        "n": 20,
+        "mean": 0.5734474176788286,
+        "std": 0.06360172009471611
+      },
+      "aperture_coverage": {
+        "n": 20,
+        "mean": 0.8389933816542025,
+        "std": 0.11008320666162479
+      },
+      "aperture_wavefront_rms_m": {
+        "n": 20,
+        "mean": 436.881947717159,
+        "std": 62.418560054643
+      },
+      "aperture_misalignment_deg": {
+        "n": 20,
+        "mean": 27.493321018787675,
+        "std": 14.531134270957356
+      },
+      "aperture_misalignment_tail_deg": {
+        "n": 20,
+        "mean": 13.785804159236699,
+        "std": 18.073702699090187
+      },
+      "aperture_span_m": {
+        "n": 20,
+        "mean": 2693.1119241204005,
+        "std": 338.89837717772104
+      },
+      "aperture_gain_oracle": {
+        "n": 20,
+        "mean": 0.6400936788297199,
+        "std": 0.20817643085687434
+      },
+      "aperture_efficiency": {
+        "n": 20,
+        "mean": 0.8498625266751277,
+        "std": 0.3482145801352724
+      },
+      "look_rate_demand_max_deg_s": {
+        "n": 20,
+        "mean": 74.1878453038674,
+        "std": 5.412453449088273
+      },
+      "look_rate_demand_mean_deg_s": {
+        "n": 20,
+        "mean": 0.7359945289999634,
+        "std": 0.0663756677672128
+      },
+      "look_turn_demand_total_deg": {
+        "n": 20,
+        "mean": 441.5967173999781,
+        "std": 39.82540066032768
+      },
+      "look_rate_ref_max_deg_s": {
+        "n": 20,
+        "mean": 0.7639437269252614,
+        "std": 5.16912964722723e-11
+      },
+      "look_rate_ref_mean_deg_s": {
+        "n": 20,
+        "mean": 0.6534868251514324,
+        "std": 0.06844771962539385
+      },
+      "look_turn_ref_total_deg": {
+        "n": 20,
+        "mean": 392.0920950908595,
+        "std": 41.06863177523631
+      },
+      "look_rate_limit_deg_s": {
+        "n": 20,
+        "mean": 0.7639437268410976,
+        "std": 1.1390647892519134e-16
+      },
+      "uav_tangential_speed_limit_mps": {
+        "n": 20,
+        "mean": 20.0,
+        "std": 0.0
+      },
+      "task_valid_fraction": {
+        "n": 20,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "subpoint_dist_min_km": {
+        "n": 20,
+        "mean": 343.61333520071275,
+        "std": 27.19057217205308
+      },
+      "subpoint_dist_mean_km": {
+        "n": 20,
+        "mean": 1305.5316781578713,
+        "std": 41.78378237311365
+      },
+      "elev_mean_deg": {
+        "n": 20,
+        "mean": 21.4925787269172,
+        "std": 0.6521494501586693
+      }
+    },
+    "B1_GEOM_PD_H5": {
+      "monitoring_performance": {
+        "n": 20,
+        "mean": 0.4647641585991534,
+        "std": 0.14183978830263497
+      },
+      "effective_monitoring_ratio": {
+        "n": 20,
+        "mean": 72.03826955074874,
+        "std": 9.394346608712986
+      },
+      "tracking_error": {
+        "n": 20,
+        "mean": 1136.1170511286869,
+        "std": 295.30737502183433
+      },
+      "average_connectivity": {
+        "n": 20,
+        "mean": 4.46072694158181,
+        "std": 1.0536026470403712
+      },
+      "link_disruption_rate": {
+        "n": 20,
+        "mean": 0.18145196602154307,
+        "std": 0.048423678383563346
+      },
+      "average_node_degree": {
+        "n": 20,
+        "mean": 12.209134775374377,
+        "std": 0.6800195822643074
+      },
+      "connected_graph_ratio": {
+        "n": 20,
+        "mean": 84.09317803660566,
+        "std": 6.5663961609572326
+      },
+      "link_availability_ratio": {
+        "n": 20,
+        "mean": 64.25860408091776,
+        "std": 3.5790504329700377
+      },
+      "k_connectivity_satisfaction_ratio": {
+        "n": 20,
+        "mean": 84.09317803660566,
+        "std": 6.5663961609572326
+      },
+      "topology_convergence_latency_ms": {
+        "n": 20,
+        "mean": 601000.0,
+        "std": 0.0
+      },
+      "topology_convergence_latency_legacy_ms": {
+        "n": 20,
+        "mean": 0.37300001131370664,
+        "std": 0.003913673007488871
+      },
+      "average_single_step_ms": {
+        "n": 20,
+        "mean": 0.3548957823547914,
+        "std": 0.00959082153218649
+      },
+      "inference_latency_ms": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "stgnn_loaded": {
+        "n": 20,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "qp_solved_ratio": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "fallback_rate": {
+        "n": 20,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "acceleration_clip_ratio": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "aperture_gain": {
+        "n": 20,
+        "mean": 0.4801516671925139,
+        "std": 0.0958659701358433
+      },
+      "aperture_gain_tail": {
+        "n": 20,
+        "mean": 0.8185971207147116,
+        "std": 0.16330479457469374
+      },
+      "aperture_gain_min": {
+        "n": 20,
+        "mean": 0.0004609097502485581,
+        "std": 0.0011147255587181477
+      },
+      "aperture_alignment": {
+        "n": 20,
+        "mean": 0.577610149105962,
+        "std": 0.05239471223041939
+      },
+      "aperture_coverage": {
+        "n": 20,
+        "mean": 0.8287842520090043,
+        "std": 0.11832001303674046
+      },
+      "aperture_wavefront_rms_m": {
+        "n": 20,
+        "mean": 436.76638525653124,
+        "std": 56.28905732970883
+      },
+      "aperture_misalignment_deg": {
+        "n": 20,
+        "mean": 29.059095488082704,
+        "std": 14.966165443993345
+      },
+      "aperture_misalignment_tail_deg": {
+        "n": 20,
+        "mean": 15.351271182253734,
+        "std": 18.66155087331292
+      },
+      "aperture_span_m": {
+        "n": 20,
+        "mean": 2662.246012668921,
+        "std": 360.5623876681843
+      },
+      "aperture_gain_oracle": {
+        "n": 20,
+        "mean": 0.6400936788297199,
+        "std": 0.20817643085687434
+      },
+      "aperture_efficiency": {
+        "n": 20,
+        "mean": 0.8325426150079844,
+        "std": 0.2904226901695355
+      },
+      "look_rate_demand_max_deg_s": {
+        "n": 20,
+        "mean": 74.1878453038674,
+        "std": 5.412453449088273
+      },
+      "look_rate_demand_mean_deg_s": {
+        "n": 20,
+        "mean": 0.7359945289999634,
+        "std": 0.0663756677672128
+      },
+      "look_turn_demand_total_deg": {
+        "n": 20,
+        "mean": 441.5967173999781,
+        "std": 39.82540066032768
+      },
+      "look_rate_ref_max_deg_s": {
+        "n": 20,
+        "mean": 0.7639437269252614,
+        "std": 5.16912964722723e-11
+      },
+      "look_rate_ref_mean_deg_s": {
+        "n": 20,
+        "mean": 0.6534868251514324,
+        "std": 0.06844771962539385
+      },
+      "look_turn_ref_total_deg": {
+        "n": 20,
+        "mean": 392.0920950908595,
+        "std": 41.06863177523631
+      },
+      "look_rate_limit_deg_s": {
+        "n": 20,
+        "mean": 0.7639437268410976,
+        "std": 1.1390647892519134e-16
+      },
+      "uav_tangential_speed_limit_mps": {
+        "n": 20,
+        "mean": 20.0,
+        "std": 0.0
+      },
+      "task_valid_fraction": {
+        "n": 20,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "subpoint_dist_min_km": {
+        "n": 20,
+        "mean": 343.61333520071275,
+        "std": 27.19057217205308
+      },
+      "subpoint_dist_mean_km": {
+        "n": 20,
+        "mean": 1305.5316781578713,
+        "std": 41.78378237311365
+      },
+      "elev_mean_deg": {
+        "n": 20,
+        "mean": 21.4925787269172,
+        "std": 0.6521494501586693
+      }
+    },
+    "B2_GREEDY": {
+      "monitoring_performance": {
+        "n": 20,
+        "mean": 0.8125487564377035,
+        "std": 0.091494119011343
+      },
+      "effective_monitoring_ratio": {
+        "n": 20,
+        "mean": 82.99500831946754,
+        "std": 5.283691020314729
+      },
+      "tracking_error": {
+        "n": 20,
+        "mean": 408.4518947235114,
+        "std": 166.4567317845783
+      },
+      "average_connectivity": {
+        "n": 20,
+        "mean": 4.698889408669009,
+        "std": 0.9706979247701714
+      },
+      "link_disruption_rate": {
+        "n": 20,
+        "mean": 0.18464839302916194,
+        "std": 0.060046855412336585
+      },
+      "average_node_degree": {
+        "n": 20,
+        "mean": 12.447870216306155,
+        "std": 0.5084083563279622
+      },
+      "connected_graph_ratio": {
+        "n": 20,
+        "mean": 84.7504159733777,
+        "std": 5.67607990248772
+      },
+      "link_availability_ratio": {
+        "n": 20,
+        "mean": 65.51510640161135,
+        "std": 2.675833454357695
+      },
+      "k_connectivity_satisfaction_ratio": {
+        "n": 20,
+        "mean": 84.7504159733777,
+        "std": 5.67607990248772
+      },
+      "topology_convergence_latency_ms": {
+        "n": 20,
+        "mean": 601000.0,
+        "std": 0.0
+      },
+      "topology_convergence_latency_legacy_ms": {
+        "n": 20,
+        "mean": 0.29137502424418926,
+        "std": 0.007912347800896
+      },
+      "average_single_step_ms": {
+        "n": 20,
+        "mean": 0.27511313632394063,
+        "std": 0.016802796782981907
+      },
+      "inference_latency_ms": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "stgnn_loaded": {
+        "n": 20,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "qp_solved_ratio": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "fallback_rate": {
+        "n": 20,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "acceleration_clip_ratio": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "aperture_gain": {
+        "n": 20,
+        "mean": 0.5689990102917347,
+        "std": 0.12179048286216251
+      },
+      "aperture_gain_tail": {
+        "n": 20,
+        "mean": 0.8223809575262084,
+        "std": 0.18437671748268378
+      },
+      "aperture_gain_min": {
+        "n": 20,
+        "mean": 0.0004609155557770233,
+        "std": 0.0011153413392006352
+      },
+      "aperture_alignment": {
+        "n": 20,
+        "mean": 0.6376780692798489,
+        "std": 0.0648101970339762
+      },
+      "aperture_coverage": {
+        "n": 20,
+        "mean": 0.8873602972060347,
+        "std": 0.10921626307337803
+      },
+      "aperture_wavefront_rms_m": {
+        "n": 20,
+        "mean": 411.28140634459805,
+        "std": 62.20235217745556
+      },
+      "aperture_misalignment_deg": {
+        "n": 20,
+        "mean": 19.441954096893443,
+        "std": 11.900360952274179
+      },
+      "aperture_misalignment_tail_deg": {
+        "n": 20,
+        "mean": 11.916959529029715,
+        "std": 15.98299949211855
+      },
+      "aperture_span_m": {
+        "n": 20,
+        "mean": 2839.1284463593934,
+        "std": 328.76747463558917
+      },
+      "aperture_gain_oracle": {
+        "n": 20,
+        "mean": 0.6400936788297199,
+        "std": 0.20817643085687434
+      },
+      "aperture_efficiency": {
+        "n": 20,
+        "mean": 0.975799113045164,
+        "std": 0.30821376797993355
+      },
+      "look_rate_demand_max_deg_s": {
+        "n": 20,
+        "mean": 74.1878453038674,
+        "std": 5.412453449088273
+      },
+      "look_rate_demand_mean_deg_s": {
+        "n": 20,
+        "mean": 0.7359945289999634,
+        "std": 0.0663756677672128
+      },
+      "look_turn_demand_total_deg": {
+        "n": 20,
+        "mean": 441.5967173999781,
+        "std": 39.82540066032768
+      },
+      "look_rate_ref_max_deg_s": {
+        "n": 20,
+        "mean": 0.7639437269252614,
+        "std": 5.16912964722723e-11
+      },
+      "look_rate_ref_mean_deg_s": {
+        "n": 20,
+        "mean": 0.6534868251514324,
+        "std": 0.06844771962539385
+      },
+      "look_turn_ref_total_deg": {
+        "n": 20,
+        "mean": 392.0920950908595,
+        "std": 41.06863177523631
+      },
+      "look_rate_limit_deg_s": {
+        "n": 20,
+        "mean": 0.7639437268410976,
+        "std": 1.1390647892519134e-16
+      },
+      "uav_tangential_speed_limit_mps": {
+        "n": 20,
+        "mean": 20.0,
+        "std": 0.0
+      },
+      "task_valid_fraction": {
+        "n": 20,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "subpoint_dist_min_km": {
+        "n": 20,
+        "mean": 343.61333520071275,
+        "std": 27.19057217205308
+      },
+      "subpoint_dist_mean_km": {
+        "n": 20,
+        "mean": 1305.5316781578713,
+        "std": 41.78378237311365
+      },
+      "elev_mean_deg": {
+        "n": 20,
+        "mean": 21.4925787269172,
+        "std": 0.6521494501586693
+      }
+    },
+    "B2_GREEDY_H5": {
+      "monitoring_performance": {
+        "n": 20,
+        "mean": 0.8025363345290669,
+        "std": 0.09405652001096647
+      },
+      "effective_monitoring_ratio": {
+        "n": 20,
+        "mean": 83.42762063227953,
+        "std": 4.703228261638998
+      },
+      "tracking_error": {
+        "n": 20,
+        "mean": 433.1205326507473,
+        "std": 164.88100229895696
+      },
+      "average_connectivity": {
+        "n": 20,
+        "mean": 4.706436612129354,
+        "std": 0.9774911140952549
+      },
+      "link_disruption_rate": {
+        "n": 20,
+        "mean": 0.18486732638584816,
+        "std": 0.06019497734986329
+      },
+      "average_node_degree": {
+        "n": 20,
+        "mean": 12.457728785357736,
+        "std": 0.5081660347489996
+      },
+      "connected_graph_ratio": {
+        "n": 20,
+        "mean": 84.50915141430949,
+        "std": 5.871322088504783
+      },
+      "link_availability_ratio": {
+        "n": 20,
+        "mean": 65.56699360714597,
+        "std": 2.6745580776263136
+      },
+      "k_connectivity_satisfaction_ratio": {
+        "n": 20,
+        "mean": 84.50915141430949,
+        "std": 5.871322088504783
+      },
+      "topology_convergence_latency_ms": {
+        "n": 20,
+        "mean": 601000.0,
+        "std": 0.0
+      },
+      "topology_convergence_latency_legacy_ms": {
+        "n": 20,
+        "mean": 0.299624988110736,
+        "std": 0.002720464622920848
+      },
+      "average_single_step_ms": {
+        "n": 20,
+        "mean": 0.2895549421249804,
+        "std": 0.006130842883080188
+      },
+      "inference_latency_ms": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "stgnn_loaded": {
+        "n": 20,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "qp_solved_ratio": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "fallback_rate": {
+        "n": 20,
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "acceleration_clip_ratio": {
+        "n": 0,
+        "mean": null,
+        "std": null
+      },
+      "aperture_gain": {
+        "n": 20,
+        "mean": 0.5720975950471925,
+        "std": 0.11899995016113664
+      },
+      "aperture_gain_tail": {
+        "n": 20,
+        "mean": 0.8270630309566431,
+        "std": 0.17722744334787668
+      },
+      "aperture_gain_min": {
+        "n": 20,
+        "mean": 0.0004608652829154678,
+        "std": 0.0011151271219766818
+      },
+      "aperture_alignment": {
+        "n": 20,
+        "mean": 0.647691995656046,
+        "std": 0.05807504947948133
+      },
+      "aperture_coverage": {
+        "n": 20,
+        "mean": 0.8821272172107802,
+        "std": 0.1112659247104236
+      },
+      "aperture_wavefront_rms_m": {
+        "n": 20,
+        "mean": 405.14817904343136,
+        "std": 57.95496045543574
+      },
+      "aperture_misalignment_deg": {
+        "n": 20,
+        "mean": 21.38278384062618,
+        "std": 11.852972056224102
+      },
+      "aperture_misalignment_tail_deg": {
+        "n": 20,
+        "mean": 13.691991042905197,
+        "std": 16.877958689478415
+      },
+      "aperture_span_m": {
+        "n": 20,
+        "mean": 2823.0219735629043,
+        "std": 334.48797664870466
+      },
+      "aperture_gain_oracle": {
+        "n": 20,
+        "mean": 0.6400936788297199,
+        "std": 0.20817643085687434
+      },
+      "aperture_efficiency": {
+        "n": 20,
+        "mean": 0.9826201133352956,
+        "std": 0.3121774787782462
+      },
+      "look_rate_demand_max_deg_s": {
+        "n": 20,
+        "mean": 74.1878453038674,
+        "std": 5.412453449088273
+      },
+      "look_rate_demand_mean_deg_s": {
+        "n": 20,
+        "mean": 0.7359945289999634,
+        "std": 0.0663756677672128
+      },
+      "look_turn_demand_total_deg": {
+        "n": 20,
+        "mean": 441.5967173999781,
+        "std": 39.82540066032768
+      },
+      "look_rate_ref_max_deg_s": {
+        "n": 20,
+        "mean": 0.7639437269252614,
+        "std": 5.16912964722723e-11
+      },
+      "look_rate_ref_mean_deg_s": {
+        "n": 20,
+        "mean": 0.6534868251514324,
+        "std": 0.06844771962539385
+      },
+      "look_turn_ref_total_deg": {
+        "n": 20,
+        "mean": 392.0920950908595,
+        "std": 41.06863177523631
+      },
+      "look_rate_limit_deg_s": {
+        "n": 20,
+        "mean": 0.7639437268410976,
+        "std": 1.1390647892519134e-16
+      },
+      "uav_tangential_speed_limit_mps": {
+        "n": 20,
+        "mean": 20.0,
+        "std": 0.0
+      },
+      "task_valid_fraction": {
+        "n": 20,
+        "mean": 1.0,
+        "std": 0.0
+      },
+      "subpoint_dist_min_km": {
+        "n": 20,
+        "mean": 343.61333520071275,
+        "std": 27.19057217205308
+      },
+      "subpoint_dist_mean_km": {
+        "n": 20,
+        "mean": 1305.5316781578713,
+        "std": 41.78378237311365
+      },
+      "elev_mean_deg": {
+        "n": 20,
+        "mean": 21.4925787269172,
+        "std": 0.6521494501586693
+      }
+    }
+  }
+}

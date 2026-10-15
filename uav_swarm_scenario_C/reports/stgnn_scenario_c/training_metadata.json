@@ -1,0 +1,13 @@
+{
+  "node_feature_dim": 71,
+  "physics_prior_dim": 16,
+  "hidden_dim": 64,
+  "prediction_horizon": 5,
+  "gradient_output_scale": 1000.0,
+  "training_status": "trained_scenario_c_aperture_potential_gradient",
+  "scenario": "aperture",
+  "train_samples": 720,
+  "test_samples": 180,
+  "epochs": 18,
+  "best_test_loss": 0.00016378840033818656
+}
