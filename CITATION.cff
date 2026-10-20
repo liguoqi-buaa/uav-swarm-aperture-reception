@@ -21,7 +21,7 @@ license-url: https://opensource.org/licenses/MIT
 repository-code: "https://github.com/liguoqi-buaa/uav-swarm-aperture-reception"
 doi: "10.5281/zenodo.23400496"
 version: "v1.0.2"
-date-released: "2026-10-18"
+date-released: "2026-10-20"
 authors:
   - family-names: "Yin"
     given-names: "Zihang"
