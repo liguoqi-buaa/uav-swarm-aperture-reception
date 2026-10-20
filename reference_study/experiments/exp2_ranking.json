@@ -1,0 +1,20 @@
+[
+  {
+    "site": "eq_pacific",
+    "ranking_ref": "B2 > B2p > B1 > B1p > ST-GNN-DMPC > P3 > P2 > P1 > P0",
+    "ranking_opt": "B2 > B2p > B1 > B1p > ST-GNN-DMPC > P3 > P2 > P1 > P0",
+    "identical": true
+  },
+  {
+    "site": "mid30_west",
+    "ranking_ref": "B2 > B2p > B1 > B1p > P3 > P2 > ST-GNN-DMPC > P1 > P0",
+    "ranking_opt": "B2 > B2p > B1 > B1p > P3 > P2 > ST-GNN-DMPC > P1 > P0",
+    "identical": true
+  },
+  {
+    "site": "mid45_europe",
+    "ranking_ref": "B2 > B2p > B1 > B1p > ST-GNN-DMPC > P3 > P2 > P1 > P0",
+    "ranking_opt": "B2 > B2p > B1 > B1p > ST-GNN-DMPC > P3 > P2 > P1 > P0",
+    "identical": true
+  }
+]

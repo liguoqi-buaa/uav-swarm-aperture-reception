@@ -2,18 +2,26 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite the journal article (once published) and this repository."
 title: "UAV-swarm distributed-aperture reception of LEO satellites - simulation code and data"
 abstract: >-
-  Closed-loop simulator and analysis scripts for a study of predictive control
-  versus prediction-free geometric control in UAV-swarm distributed-aperture
-  reception of non-cooperative LEO satellites, including a length-controlled
-  alignment metric, a connectivity-aperture trade-off analysis, a per-step
-  compute budget and a three-site robustness check.
+  Closed-loop simulator, reference generator and analysis scripts for a study of
+  UAV-swarm distributed-aperture reception of non-cooperative LEO satellites. Two
+  stages are included. The second identifies and proves a failure mode of the
+  rate-limited reference direction used to score controllers, shows that its lag
+  grows without bound whenever the instantaneous optimum migrates faster than the
+  array can turn, and replaces it with an exact rate-constrained optimal reference
+  computed by dynamic programming on the periodic orientation circle. Correcting the
+  reference shifts the reported aperture gains differentially, strengthening the
+  earlier conclusion rather than undermining it. The first stage provides the
+  closed-loop comparison itself, a length-controlled alignment metric, a
+  connectivity-aperture trade-off analysis, a per-step compute budget and a
+  three-site robustness check. Every aggregate result table, the figure scripts and
+  a number-verification script are included.
 type: software
 license: MIT
 license-url: https://opensource.org/licenses/MIT
 repository-code: "https://github.com/liguoqi-buaa/uav-swarm-aperture-reception"
 doi: "10.5281/zenodo.23400496"
-version: "v1.0.1"
-date-released: "2026-10-15"
+version: "v1.0.2"
+date-released: "2026-10-18"
 authors:
   - family-names: "Yin"
     given-names: "Zihang"
@@ -38,7 +46,11 @@ contact:
 keywords:
   - UAV swarm
   - distributed aperture
-  - predictive control
+  - reference generation
+  - rate constraint
+  - dynamic programming
   - LEO satellite
   - performance evaluation
+  - verification and validation
   - geometric control
+  - predictive control
